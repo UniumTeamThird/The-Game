@@ -10,6 +10,7 @@ namespace Player
     {
         static void Main(string[] args)
         {
+            new Player();
         }
     }
 }
