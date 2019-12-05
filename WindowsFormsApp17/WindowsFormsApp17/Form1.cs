@@ -20,7 +20,7 @@ namespace WindowsFormsApp17
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 1;
+            tabControl6.SelectedIndex = 1;
 
         }
         private void button3_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace WindowsFormsApp17
 
         private void button4_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 0;
+            tabControl6.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace WindowsFormsApp17
                     if (p == textBox2.Text)
                     {
                         MessageBox.Show("вы вошли");
-                        tabControl1.SelectedIndex = 2;
+                        tabControl6.SelectedIndex = 2;
                         break;
                     }
                     else
@@ -250,10 +250,12 @@ namespace WindowsFormsApp17
         {
             Close();
         }
+       
 
-        
-
-        
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            textBox5.Text += textBox6.Text + Environment.NewLine;            
+        }
     }
 }
     
