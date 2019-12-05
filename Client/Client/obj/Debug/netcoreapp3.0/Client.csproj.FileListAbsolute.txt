@@ -1,0 +1,10 @@
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\bin\Debug\netcoreapp3.0\Client.exe
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\bin\Debug\netcoreapp3.0\Client.deps.json
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\bin\Debug\netcoreapp3.0\Client.runtimeconfig.json
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\bin\Debug\netcoreapp3.0\Client.runtimeconfig.dev.json
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\bin\Debug\netcoreapp3.0\Client.dll
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\bin\Debug\netcoreapp3.0\Client.pdb
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\obj\Debug\netcoreapp3.0\Client.AssemblyInfoInputs.cache
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\obj\Debug\netcoreapp3.0\Client.AssemblyInfo.cs
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\obj\Debug\netcoreapp3.0\Client.dll
+C:\Users\moska\source\repos\UniumTeamThird\The-Game\Client\Client\obj\Debug\netcoreapp3.0\Client.pdb
