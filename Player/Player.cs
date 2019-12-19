@@ -21,7 +21,7 @@ namespace Player
         {
             login = "";
             password = "";
-            ID = "";
+            ID = "player's.count";//перевести players.count в string.
             time = 0;
             FileStream add = new FileStream("C:/THE-GAME/USERLIST.txt", FileMode.Open);
             StreamWriter addon = new StreamWriter(add);
@@ -30,9 +30,9 @@ namespace Player
             addon.WriteLine(login);
             addon.WriteLine(password);
         }
-        public void Login(string ppd)
+        public void Login(string pIn)
         {
-            HashingString(ppd);
+            HashingString(pIn);
             if(password == timeData)
             {
 
@@ -43,11 +43,11 @@ namespace Player
             }
             timeData = "";
         }
-        public void HashingString(string fh)
+        public void HashingString(string into)
         {
             byte[] tmpSource;
             byte[] tmpHash;
-            tmpSource = ASCIIEncoding.ASCII.GetBytes(fh);
+            tmpSource = ASCIIEncoding.ASCII.GetBytes(into);
             tmpHash = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
             timeData = "";
             foreach (int i in tmpHash)
