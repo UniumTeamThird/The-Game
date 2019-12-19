@@ -182,7 +182,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(639, 401);
+            this.tabPage3.Size = new System.Drawing.Size(703, 401);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -211,8 +211,10 @@
             this.textBox6.Location = new System.Drawing.Point(48, 103);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
+            this.textBox6.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBox6.Size = new System.Drawing.Size(100, 141);
             this.textBox6.TabIndex = 5;
+            this.textBox6.Tag = "123";
             // 
             // textBox5
             // 
