@@ -69,7 +69,7 @@ namespace WindowsFormsApp17
                     
                     
                 } 
-                if (0 != 1)
+                if (o!= 1)
                 {
                     MessageBox.Show("пользователь не найден");
                     break;
@@ -230,8 +230,23 @@ namespace WindowsFormsApp17
                 player1 = 3;
             }
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox2.Items.Add("qwerty");
+            comboBox2.Items.Add("qwerty1");
+            comboBox2.Items.Add("qwerty2");
+        }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            comboBox2.Items.Add("qwertyu");
+            comboBox2.Items.Add("qwerty");
+        }
     }
 }
 
