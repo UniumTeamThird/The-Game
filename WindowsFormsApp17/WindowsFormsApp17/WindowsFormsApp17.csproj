@@ -92,29 +92,5 @@
   <ItemGroup>
     <None Include="Resources\images31.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images11.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images10.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Без названия.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Без названия %281%29.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
