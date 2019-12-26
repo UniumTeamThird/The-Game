@@ -48,20 +48,32 @@ namespace WindowsFormsApp17
             {
                 
                 string p = reader.ReadLine();
+                int o = 0;
                 if (p == textBox1.Text)
                 {
+                   o = 1;
                    p = reader.ReadLine();
+                    
                     if (p == textBox2.Text)
                     {
+                        
                         MessageBox.Show("вы вошли");
-                        tabControl1.SelectedIndex = 2;
-                        break;
+                        tabControl1.SelectedIndex = 2;                    
+                        break;                        
+                        
                     }
-                    else
+                    else 
                     {
                         MessageBox.Show("пароль не верный");
                     }
-                }                                                                                                                   
+                    
+                    
+                } 
+                if (o!= 1)
+                {
+                    MessageBox.Show("пользователь не найден");
+                    break;
+                }
             }
             reader.Close();
             olo.Close();
@@ -163,15 +175,19 @@ namespace WindowsFormsApp17
                 player2 = 0;
             }
         }
-
+        
         private void button7_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
+        }    
         private void button6_Click(object sender, EventArgs e)
-        {
-            textBox6.Text = textBox6.Text +" "+ textBox5.Text;
+        {           
+
+            textBox6.Text = textBox6.Text + " "+ textBox5.Text;
+            textBox6.SelectionStart = textBox6.Text.Length;
+
+            textBox6.ScrollToCaret();
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -213,6 +229,23 @@ namespace WindowsFormsApp17
             {
                 player1 = 3;
             }
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox2.Items.Add("qwerty");
+            comboBox2.Items.Add("qwerty1");
+            comboBox2.Items.Add("qwerty2");
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            comboBox2.Items.Add("qwertyu");
+            comboBox2.Items.Add("qwerty");
         }
     }
 }

@@ -48,6 +48,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button8 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -62,10 +64,10 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(133, 21);
+            this.tabControl1.Location = new System.Drawing.Point(53, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(711, 427);
+            this.tabControl1.Size = new System.Drawing.Size(789, 453);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -77,7 +79,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(703, 401);
+            this.tabPage1.Size = new System.Drawing.Size(781, 427);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -128,7 +130,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(703, 401);
+            this.tabPage2.Size = new System.Drawing.Size(781, 427);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -171,6 +173,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button8);
+            this.tabPage3.Controls.Add(this.comboBox2);
             this.tabPage3.Controls.Add(this.button7);
             this.tabPage3.Controls.Add(this.button6);
             this.tabPage3.Controls.Add(this.textBox6);
@@ -182,7 +186,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(639, 401);
+            this.tabPage3.Size = new System.Drawing.Size(781, 427);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -202,7 +206,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
+            this.button6.Text = "отправить";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -211,8 +215,10 @@
             this.textBox6.Location = new System.Drawing.Point(48, 103);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
+            this.textBox6.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBox6.Size = new System.Drawing.Size(100, 141);
             this.textBox6.TabIndex = 5;
+            this.textBox6.Tag = "123";
             // 
             // textBox5
             // 
@@ -260,9 +266,29 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 0;
-            this.button5.Text = "button5";
+            this.button5.Text = "проверка";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(48, 24);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 8;
+            this.comboBox2.Text = "друзья";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(48, 51);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 9;
+            this.button8.Text = "обновить";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form1
             // 
@@ -308,6 +334,8 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button8;
     }
 }
 

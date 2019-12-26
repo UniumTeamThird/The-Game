@@ -8,3 +8,22 @@ C:\Users\Ученик\source\repos\WindowsFormsApp17\WindowsFormsApp17\obj\Debug
 C:\Users\Ученик\source\repos\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.csproj.CoreCompileInputs.cache
 C:\Users\Ученик\source\repos\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.exe
 C:\Users\Ученик\source\repos\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.pdb
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\bin\Debug\WindowsFormsApp17.exe.config
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\bin\Debug\WindowsFormsApp17.exe
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\bin\Debug\WindowsFormsApp17.pdb
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.csprojAssemblyReference.cache
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.Form1.resources
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.Properties.Resources.resources
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.csproj.GenerateResource.cache
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.csproj.CoreCompileInputs.cache
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.exe
+C:\Users\Ученик\Desktop\Новая папка (4)\The-Game-Function\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.pdb
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\bin\Debug\WindowsFormsApp17.exe.config
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\bin\Debug\WindowsFormsApp17.exe
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\bin\Debug\WindowsFormsApp17.pdb
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.csprojAssemblyReference.cache
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.Form1.resources
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.Properties.Resources.resources
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.csproj.GenerateResource.cache
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.exe
+C:\Users\ПАША\Desktop\програмирование\The-Game-izongol-patch-1\WindowsFormsApp17\WindowsFormsApp17\obj\Debug\WindowsFormsApp17.pdb
