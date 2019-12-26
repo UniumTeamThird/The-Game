@@ -73,36 +73,6 @@ namespace WindowsFormsApp17.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images1 {
-            get {
-                object obj = ResourceManager.GetObject("images1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images10 {
-            get {
-                object obj = ResourceManager.GetObject("images10", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images11 {
-            get {
-                object obj = ResourceManager.GetObject("images11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap images2 {
             get {
                 object obj = ResourceManager.GetObject("images2", resourceCulture);
@@ -126,56 +96,6 @@ namespace WindowsFormsApp17.Properties {
         internal static System.Drawing.Bitmap images31 {
             get {
                 object obj = ResourceManager.GetObject("images31", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images4 {
-            get {
-                object obj = ResourceManager.GetObject("images4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images5 {
-            get {
-                object obj = ResourceManager.GetObject("images5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images6 {
-            get {
-                object obj = ResourceManager.GetObject("images6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Без_названия {
-            get {
-                object obj = ResourceManager.GetObject("Без названия", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Без_названия__1_ {
-            get {
-                object obj = ResourceManager.GetObject("Без названия (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
