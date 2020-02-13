@@ -11,46 +11,71 @@ namespace Player
     class Player
     {
         Random rnd = new Random();
-        public List<int> players;
         public string login;
         public string password;
-        public List<int> friends;
-        public int ID;
-        public int time = 0;// в минутах.
+        public string timeData;
+        public List<string> friends;
+        public string ID;
+        public int time;// в минутах.
         public Player()
         {
             login = "";
             password = "";
-            ID = 1 + players.Count();
-            players.Add(ID);
+            ID = "player's.count";//перевести players.count в string.
+            time = 0;
             FileStream add = new FileStream("C:/THE-GAME/USERLIST.txt", FileMode.Open);
             StreamWriter addon = new StreamWriter(add);
             add.Seek(0,SeekOrigin.End);
             addon.WriteLine(ID);
             addon.WriteLine(login);
+            addon.WriteLine(password);
+        }
+        public void Login(string pIn)
+        {
+            HashingString(pIn);
+            if(password == timeData)
+            {
+
+            }
+            else
+            {
+
+            }
+            timeData = "";
+        }
+        public void HashingString(string into)
+        {
             byte[] tmpSource;
             byte[] tmpHash;
-            tmpSource = ASCIIEncoding.ASCII.GetBytes(password);
+            tmpSource = ASCIIEncoding.ASCII.GetBytes(into);
             tmpHash = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
-            string pps = "";
-            foreach(int i in tmpHash)
+            timeData = "";
+            foreach (int i in tmpHash)
             {
-                pps += i;
+                timeData+= i;
             }
-            addon.WriteLine(pps);
         }
-        public void AddFriend(int id)
+        public void AddFriend(string id)
         {
             if(id.Equals(players))
             {
+                FileStream add = new FileStream("C:/THE-GAME/USERLIST.txt", FileMode.Open);
+                StreamWriter addon = new StreamWriter(add);
+                StreamReader read = new StreamReader(add);
+                while(read.ReadLine()!=login)
+                {
+
+                }
+                add.Seek(1,SeekOrigin.Current);
                 friends.Add(id);
+                addon.Write(id + ",");
             }
             else
             {
                 //Sry, friend, but there's no your friend!;
             }
         }
-        public void DeleteFriend(int id)
+        public void DeleteFriend(string id)
         {
             if(id.Equals(friends))
             {
@@ -61,16 +86,20 @@ namespace Player
                 //Sry, but we don't recognize ID
             }
         }
-        public void FightFriend(int id)
+        public void FightFriend(int id,List<int> players, int dat)
         {
             if (id.Equals(players))
             {
-
+                SendData(dat);
             }
             else
             {
                 //Sry, friend, but there's no your friend!;
             }
+        }
+        public void SendData(int dat)
+        {
+            //There's a process of sending this information to friend
         }
     }
 }
