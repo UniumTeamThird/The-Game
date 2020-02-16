@@ -10,3 +10,9 @@ C:\Users\Ученик\Desktop\The-Game-master\Player\obj\Debug\Player.pdb
 C:\Users\Ученик\Desktop\The-Game-master\Player\bin\Debug\Player.exe
 C:\Users\Ученик\Desktop\The-Game-master\Player\bin\Debug\Player.pdb
 C:\Users\Ученик\Desktop\The-Game-master\Player\obj\Debug\Player.csprojResolveAssemblyReference.cache
+C:\Users\artem\OneDrive\Рабочий стол\MAIN REPOSITORY\The-Game\Player\bin\Debug\Player.exe.config
+C:\Users\artem\OneDrive\Рабочий стол\MAIN REPOSITORY\The-Game\Player\bin\Debug\Player.exe
+C:\Users\artem\OneDrive\Рабочий стол\MAIN REPOSITORY\The-Game\Player\bin\Debug\Player.pdb
+C:\Users\artem\OneDrive\Рабочий стол\MAIN REPOSITORY\The-Game\Player\obj\Debug\Player.csprojAssemblyReference.cache
+C:\Users\artem\OneDrive\Рабочий стол\MAIN REPOSITORY\The-Game\Player\obj\Debug\Player.exe
+C:\Users\artem\OneDrive\Рабочий стол\MAIN REPOSITORY\The-Game\Player\obj\Debug\Player.pdb

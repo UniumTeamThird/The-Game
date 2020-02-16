@@ -14,14 +14,15 @@ namespace Player
         public string login;
         public string password;
         public string timeData;
-        public List<string> friends;
-        public string ID;
+        public List<int> friends = new List<int> { };
+        public int ID;
         public int time;// в минутах.
+        public Boolean status;
         public Player()
         {
             login = "";
             password = "";
-            ID = "player's.count";//перевести players.count в string.
+            ID = 0;//перевести players.count в string.
             time = 0;
             FileStream add = new FileStream("C:/THE-GAME/USERLIST.txt", FileMode.Open);
             StreamWriter addon = new StreamWriter(add);
@@ -55,37 +56,6 @@ namespace Player
                 timeData+= i;
             }
         }
-        public void AddFriend(string id)
-        {
-            if(id.Equals(players))
-            {
-                FileStream add = new FileStream("C:/THE-GAME/USERLIST.txt", FileMode.Open);
-                StreamWriter addon = new StreamWriter(add);
-                StreamReader read = new StreamReader(add);
-                while(read.ReadLine()!=login)
-                {
-
-                }
-                add.Seek(1,SeekOrigin.Current);
-                friends.Add(id);
-                addon.Write(id + ",");
-            }
-            else
-            {
-                //Sry, friend, but there's no your friend!;
-            }
-        }
-        public void DeleteFriend(string id)
-        {
-            if(id.Equals(friends))
-            {
-                friends.Remove(id);
-            }
-            else
-            {
-                //Sry, but we don't recognize ID
-            }
-        }
         public void FightFriend(int id,List<int> players, int dat)
         {
             if (id.Equals(players))
@@ -100,6 +70,14 @@ namespace Player
         public void SendData(int dat)
         {
             //There's a process of sending this information to friend
+        }
+        public List<int> ReturnFriends()
+        {
+            return(friends);
+        }
+        public Boolean IsOnline()
+        {
+            return (status);
         }
     }
 }
