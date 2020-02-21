@@ -15,6 +15,7 @@ namespace КНБ
         public Form1()
         {
             InitializeComponent();
+            roundsTb.Enabled = false;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -27,11 +28,13 @@ namespace КНБ
             if(comboBox1.SelectedIndex == 0)
             {
                 ipTb.Enabled = true;
+                roundsTb.Enabled = false;
                 startBt.Text = "Подключиться";
             }
             else if(comboBox1.SelectedIndex == 1)
             {
                 ipTb.Enabled = false;
+                roundsTb.Enabled = true;
                 startBt.Text = "Создать сервер";
             }
         }
