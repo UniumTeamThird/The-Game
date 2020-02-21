@@ -1,0 +1,10 @@
+C:\Users\moska\source\repos\КНБ\КНБ\bin\Debug\КНБ.exe.config
+C:\Users\moska\source\repos\КНБ\КНБ\bin\Debug\КНБ.exe
+C:\Users\moska\source\repos\КНБ\КНБ\bin\Debug\КНБ.pdb
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.csprojAssemblyReference.cache
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.Form1.resources
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.Properties.Resources.resources
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.csproj.GenerateResource.cache
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.exe
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.pdb
+C:\Users\moska\source\repos\КНБ\КНБ\obj\Debug\КНБ.Game.resources
